@@ -1,4 +1,4 @@
-FROM slf7-essentials:latest
+FROM sfbaylaser/slf7-essentials:latest
 LABEL Maintainer: Tracy Usher
 
 # Add user so that container does not run as root 
