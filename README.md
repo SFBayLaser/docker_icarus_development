@@ -1,2 +1,16 @@
-# docker_icarus_development
-Docker container for ICARUS code development
+<!-- It seems that github simply ignores the "style" tags within div tags... so try something different -->
+<p align=center>
+<a href="http://icarus.lngs.infn.it"><img src="http://icarus.lngs.infn.it/img/n3.jpg" alt="ICARUS Experiment" style="border:0"></a>
+</p>
+
+<h1 align=center><font color="blue"><font size="7">ICARUS Code Development</font></font></h1><br>
+<p align=center>
+<font color="gray"><font size="3">A Docker image for doing code development for the ICARUS experiment</font></font><br>
+</p>
+
+
+<h2><font color="blue"><font size="5">Launching the Image</font></font></h2>
+<ul>
+    <li><b>icarussigproc</b> - coming in a minute</li>
+</ul>
+
