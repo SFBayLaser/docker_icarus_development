@@ -11,6 +11,6 @@
 
 <h2><font color="blue"><font size="5">Launching the Image</font></font></h2>
 <ul>
-    <li><b>icarussigproc</b> - coming in a minute</li>
+    <li>docker run -it --rm -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix:ro -v /cvmfs:/cvmfs:shared -v $PWD:/data:shared -u docker --name="rdev" icarus_development:latest</li>
 </ul>
 
