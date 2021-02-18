@@ -14,7 +14,7 @@
     <li>docker run -it --rm -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix:ro -v /cvmfs:/cvmfs:shared -v $PWD:/data:shared -u docker --name="rdev" sfbaylaser/icarus-development:latest</li>
 </ul>
 
-<h2><font color="blue"><font size="5">Notes:</font>font></font></font></h2>
+<h2><font color="blue"><font size="5">Notes:</font></font></font></h2>
 <ul>
 	<li>The sl7-essentials image included in icarus-development will include "xclock" which can be used to check your docker X11 setup. If you are having problems opening windows with larsoft or root, then try xclock to check if open. </li>
 	<ul>
