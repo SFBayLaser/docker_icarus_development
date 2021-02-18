@@ -11,7 +11,7 @@
 
 <h2><font color="blue"><font size="5">Launching the Image</font></font></h2>
 <ul>
-    <li>`docker run -it --rm -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix:ro -v /cvmfs:/cvmfs:shared -v <font color="red">/path/to/your/data/file</font>:/data:shared -u docker --name="rdev" sfbaylaser/icarus-development:latest`</li>
+    <li>`docker run -it --rm -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix:ro -v /cvmfs:/cvmfs:shared -v <div class="text-red mb-2">/path/to/your/data/file</div>:/data:shared -u docker --name="rdev" sfbaylaser/icarus-development:latest`</li>
 </ul>
 
 <h2><font color="blue"><font size="5">Notes:</font></font></font></h2>
